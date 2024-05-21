@@ -1,0 +1,103 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 10px;
+  background-color: rgb(25, 0, 49);
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+  min-width: 250px;
+}
+
+.maincontainer h1 {
+  color: white;
+  font-family: cursive;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+.maincontainer span {
+  color: rgb(255, 0, 183);
+}
+
+.bothImages {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.bothImages svg {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.bothImages img {
+  aspect-ratio: 1;
+  width: 50%;
+  min-width: 300px;
+}
+
+.promptContainer {
+  width: 100%;
+  border: 3px solid white;
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.promptContainer input {
+  width: 80%;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+.promptContainer button {
+  width: 20%;
+  background-color: white;
+  color: rgb(255, 0, 183);
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.selectImage {
+  width: 30%;
+  color: white;
+  background-color: rgb(255, 0, 183);
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.downloadbtn{
+  position: absolute;
+  z-index: 100;
+  top: 5px;
+  right: 5px;
+  background-color: rgb(255, 0, 183);
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
